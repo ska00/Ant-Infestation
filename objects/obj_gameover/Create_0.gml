@@ -6,3 +6,7 @@ x= 0;
 y = 0;
 
 alpha = 0;
+
+audio_stop_sound(snd_soundtrack);
+
+audio_play_sound(snd_gameover, global.SOUNDPRIORITY, false);

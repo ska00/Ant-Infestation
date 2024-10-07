@@ -11,3 +11,6 @@ if other.hp > 0 hurt_ant(other);
 
 
 instance_destroy();
+
+
+audio_play_sound(snd_rock, 4, false);

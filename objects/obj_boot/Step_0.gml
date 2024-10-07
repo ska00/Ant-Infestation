@@ -37,6 +37,7 @@ switch state
 		
 		if y > ymax
 		{
+			audio_play_sound(snd_boot, global.SOUNDPRIORITY, false);
 			state = STATES.done;
 		}
 

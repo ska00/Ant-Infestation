@@ -26,3 +26,6 @@ state = STATES.idle
 
 //
 sugar_distance = random_range(1, 20);
+
+
+audio_play_sound(snd_antspawning, global.SOUNDPRIORITY, false, 0.3);

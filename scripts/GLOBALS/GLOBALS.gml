@@ -28,6 +28,8 @@ function set_globals()
 	}
 
 	global.HEALTH = 3;
+	
+	global.SOUNDPRIORITY = 2;
 
 	global.OUTOFBOUNDS = -16;
 
