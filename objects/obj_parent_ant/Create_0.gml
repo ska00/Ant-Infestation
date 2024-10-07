@@ -8,6 +8,8 @@ dir = -1;
 
 move_speed = ant.move_speed * dir + random_range(-0.1, 0.1);
 
+hp = ant.health_points
+
 xorigin = x;
 
 image_xscale = global.ANTSCALE * dir;
@@ -16,7 +18,8 @@ image_yscale = global.ANTSCALE;
 STATES = {
 	"idle": 0,
 	"squashed": 1,
-	"tranced": 2
+	"tranced": 2,
+	"gameover": 3
 }
 
 state = STATES.idle

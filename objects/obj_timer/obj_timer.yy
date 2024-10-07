@@ -10,8 +10,8 @@
   "name":"obj_timer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Spawners",
-    "path":"folders/Spawners.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "parentObjectId":null,
   "persistent":false,

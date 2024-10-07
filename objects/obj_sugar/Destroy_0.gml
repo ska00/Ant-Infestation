@@ -8,7 +8,7 @@ for (var i = 0; i < len; i ++)
 		state = STATES.idle;
 		speed = 0;
 		if image_xscale> 0 image_xscale = - image_xscale;
-		image_blend = -1;
+		sprite_index = spr_greenhat;
 	}
 }
 

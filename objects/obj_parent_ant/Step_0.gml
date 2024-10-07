@@ -1,14 +1,20 @@
 /// @description ant moves
 
+if hp <= 0 
+{
+	state = STATES.squashed
+}
+
 switch state
 {
+	
 	case STATES.idle:
 		x += move_speed
 
 		if x > room_width or x < global.OUTOFBOUNDS 
 		{
 			instance_destroy();
-			
+			global.HEALTH -= 1
 		}
 	break;
 	
@@ -18,10 +24,9 @@ switch state
 	break;
 	
 	case STATES.tranced:
-	{
 		//print("ant is tranced");
 		
-		image_blend = c_fuchsia;
+		sprite_index = spr_greenhat_tranced
 		
 		//if not instance_exists(obj_sugar)
 		//{
@@ -40,7 +45,14 @@ switch state
 		{
 			move_towards_point( obj_sugar.x, obj_sugar.y, abs(move_speed + 0.2));
 		}
+	break;
 
-	}
+
+	case STATES.gameover:
+		speed = 0;
+		image_speed = 0;
+	break;
+	
+	
 }
 

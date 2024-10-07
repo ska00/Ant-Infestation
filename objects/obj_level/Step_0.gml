@@ -35,9 +35,6 @@ switch(time_passed)
 		delete_ant_hill(1)
 		spawn_ant("looksmax", ant_hills[0])
 	end_action()
-	case 27:
-		spawn_ant("looksmax", ant_hills[0])
-	end_action()
 	break;
 	case 28:
 		spawn_ant("blue", ant_hills[0])
@@ -47,14 +44,10 @@ switch(time_passed)
 		spawn_ant("blue", ant_hills[0])
 	end_action()
 	break;
-	case 30:
-		spawn_ant("blue", ant_hills[0])
-	end_action()
-	break;
 	
 	case 34:
 		array_push(ant_hills, create_hill(ant_hills[0].x - 55))
-		spawner = create_spawner(ant_hills[0].x - 55, obj_greenhat, [1.5, 2.5]);
+		spawner = create_spawner(ant_hills[0].x - 55, obj_greenhat, [2, 2.5]);
 		array_push(spawners, spawner);
 	end_action()
 	break;
@@ -71,7 +64,7 @@ switch(time_passed)
 		array_push(spawners, spawner);
 		
 		array_push(ant_hills, create_hill(ant_hills[0].x - 65))
-		spawner = create_spawner(ant_hills[0].x - 55, obj_greenhat, [1.5, 2.5]);
+		spawner = create_spawner(ant_hills[0].x - 55, obj_greenhat, [3, 4]);
 		array_push(spawners, spawner);
 	end_action()
 	break;
@@ -84,8 +77,8 @@ switch(time_passed)
 		var len = array_length(spawners)
 		for (var i = 0; i < len; i ++)
 		{
-			instance_destroy(spawners[i])
-			array_delete(spawners, i, 1)
+			instance_destroy(spawners[len - 1 - i])
+			array_delete(spawners, len - 1 - i, 1)
 		}
 	end_action()
 	break;
