@@ -11,6 +11,8 @@ y_initial = 0;
 time = 0;
 time_final = 0;
 
+time_steps = 30;
+
 // Finding
 vert_velocity = 0;
 
@@ -20,10 +22,10 @@ y_rock = 0;
 started = false;
 
 
-xf = 0;
-yo = 0;
-yf = 0;
+//xf = 0;
+//yo = 0;
+//yf = 0;
 
-// Finding
-vyo = 0;
-vy = 0;
+//// Finding
+//vyo = 0;
+//vy = 0;

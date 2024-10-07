@@ -12,8 +12,8 @@
   "duration":0.278396,
   "name":"snd_throw",
   "parent":{
-    "name":"Ant Infestation",
-    "path":"Ant Infestation.yyp",
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

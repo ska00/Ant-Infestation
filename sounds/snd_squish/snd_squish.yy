@@ -12,8 +12,8 @@
   "duration":0.200354,
   "name":"snd_squish",
   "parent":{
-    "name":"Ant Infestation",
-    "path":"Ant Infestation.yyp",
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -1,6 +1,5 @@
 /// @description 
 
-padding = 5;
+event_inherited()
 
-y = padding;
-x = obj_foot_button.x - sprite_width - padding;
+x = obj_boot_button.x - sprite_width - padding;

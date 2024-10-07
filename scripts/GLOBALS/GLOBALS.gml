@@ -1,22 +1,58 @@
 
+scribble_font_bake_outline_and_shadow("fnt_numbers", "fnt",0,0,SCRIBBLE_OUTLINE.FOUR_DIR, 2,false);
+
 global.ANTSCALE = 0.6
 
 global.ANTS = {
-	greenhat: {move_speed: 3, spawn_rate: 1}
+	obj_blue: {name: "blue", move_speed: 1.1, health_points: 25},
+	obj_fire: {name:"fire", move_speed: 0.9, health_points: 50},
+	obj_greenhat: {name: "greenhat", move_speed: 0.8, health_points: 50},
+	obj_looksmax: {name: "looksmax", move_speed: 0.6, health_points: 50},
+	obj_looksmax_ugly: {name: "looksmax_ugly", move_speed: 1.2, health_points: 50},
+	obj_queen : {name: "queen", move_speed: 0.2, health_points: 200},
 }
 
 global.ANTCOUNT = {
 	greenhat: 0,
+	looksmax: 0,
+	fire: 0,
+	blue : 0,
+	queen : 0
 }
+
+
+global.OUTOFBOUNDS = -32;
 
 global.SHOWHITBOXES = true;
 
 global.SHOWSPAWNERS = true;
 
-global.OUTOFBOUNDS = -32;
+global.STARTTIME = 3 * 60;	// 3 minutes
 
-global.WEAPONMODE=
+global.TIME = global.STARTTIME ;	// 3 minutes
+
+global.WEAPONS =
 {
-	"none": 0,
-	"boot": 1
+	obj_boot_button: {"object": obj_boot, "count": 3, "trigger": "E", "used": false},
+	obj_poison_button: {"object": obj_poison, "count": 3, "trigger": "W", "used": false},
+	obj_sugar_button: {"object": obj_sugar, "count": 3, "trigger": "Q", "used": false},
 }
+
+
+global.WEAPONACTIVE = noone;
+
+//global.WEAPONUSED = false;
+
+//global.WEAPONS =
+//{
+//	"boot" : obj_boot,
+//	"poison": obj_poison,
+//	"sugar": obj_sugar
+//}
+
+//global.WEAPONCOUNT =
+//{
+//	"boot" : 3,
+//	"poison": 3,
+//	"sugar": 3
+//}

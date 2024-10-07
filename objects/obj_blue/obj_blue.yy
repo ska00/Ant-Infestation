@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_blue",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_blue",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"Objects",
     "path":"folders/ANTS/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_parent_ant",
+    "path":"objects/obj_parent_ant/obj_parent_ant.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

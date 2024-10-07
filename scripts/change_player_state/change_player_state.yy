@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"change_player_state",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"change_player_state",
+  "parent":{
+    "name":"Buttons",
+    "path":"folders/Buttons.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
