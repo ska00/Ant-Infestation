@@ -1,3 +1,3 @@
-/// @description decrease from count
+///// @description decrease from count
 
-global.ANTCOUNT[$ ant.name] -= 1;
+//global.ANTCOUNT[$ ant.name] -= 1;

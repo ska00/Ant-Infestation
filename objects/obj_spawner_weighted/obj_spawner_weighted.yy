@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_parent_item",
+  "%Name":"obj_spawner_weighted",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_parent_item",
+  "name":"obj_spawner_weighted",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/Weapons/objects.yy",
+    "name":"Spawners",
+    "path":"folders/Spawners.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_spawner",
+    "path":"sprites/spr_spawner/spr_spawner.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

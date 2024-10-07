@@ -6,4 +6,5 @@ with obj_rock_shooter
 	time = 0;
 }
 
-instance_destroy();
+
+//instance_destroy();

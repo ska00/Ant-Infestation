@@ -13,4 +13,4 @@ Scribble.starting_format("fnt", c_white);
 Scribble.scale(2)
 	
 // Draw text
-Scribble.draw(xtimer, ytimer)
+Scribble.draw(xtimer + room_width / 2 - Scribble.get_width(), ytimer)

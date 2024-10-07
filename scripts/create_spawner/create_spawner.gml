@@ -1,5 +1,10 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function create_spawner(){
-
+/// @desc:
+// @param _x
+// @param _y
+// @param _ant: The ant to be spawned
+// @param off_time: a list that has min time off and max time off
+function create_spawner(_x, _ant, off_time)
+{
+	var vars = {min_off_time: off_time[0], max_off_time: off_time[1], ant : _ant}
+	return instance_create_layer(_x, 143, "Instances", obj_spawner, vars)
 }

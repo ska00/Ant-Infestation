@@ -5,7 +5,7 @@ repeat(ants)
 {
 	var _x = random_range(x - 20, x + 20);
 	
-	spawn_ant("greenhat", _x, y);
+	instance_create_layer( _x, y, "Instances", obj_greenhat);
 }
 
 event_inherited()

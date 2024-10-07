@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sugar",
+  "%Name":"obj_sugar_mock",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_sugar",
+  "name":"obj_sugar_mock",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
     "path":"folders/Weapons/objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_parent_weapon_mock",
+    "path":"objects/obj_parent_weapon_mock/obj_parent_weapon_mock.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

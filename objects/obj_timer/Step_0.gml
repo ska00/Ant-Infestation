@@ -1,5 +1,11 @@
 /// @description Add timestep
 
+if global.TIME == 0
+{
+	exit;
+}
+
+
 time_counter += 1
 
 if time_counter > gamespeed
@@ -11,10 +17,7 @@ if time_counter > gamespeed
 minutes = floor(global.TIME / 60)
 seconds = (global.TIME - minutes * 60) % 60
 
-if global.TIME < 0
-{
-	instance_destroy()
-}
 
 //print("Greenhat: ", global.ANTCOUNT.greenhat);
 //print("Looksmax: ", global.ANTCOUNT.looksmax);
+

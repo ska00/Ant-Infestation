@@ -8,7 +8,7 @@ switch state
 		if x > room_width or x < global.OUTOFBOUNDS 
 		{
 			instance_destroy();
-			global.ANTCOUNT[$"greenhat"] -= 1;
+			//global.ANTCOUNT[$"greenhat"] -= 1;
 		}
 	break;
 	

@@ -2,7 +2,6 @@
   "$GMObject":"",
   "%Name":"obj_poison_mock",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
@@ -13,8 +12,8 @@
     "path":"folders/Weapons/objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_parent_item",
-    "path":"objects/obj_parent_item/obj_parent_item.yy",
+    "name":"obj_parent_weapon_mock",
+    "path":"objects/obj_parent_weapon_mock/obj_parent_weapon_mock.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

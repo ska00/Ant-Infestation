@@ -1,6 +1,8 @@
 
 scribble_font_bake_outline_and_shadow("fnt_numbers", "fnt",0,0,SCRIBBLE_OUTLINE.FOUR_DIR, 2,false);
 
+randomize();
+
 global.ANTSCALE = 0.6
 
 global.ANTS = {
@@ -23,23 +25,25 @@ global.ANTCOUNT = {
 
 global.OUTOFBOUNDS = -32;
 
-global.SHOWHITBOXES = true;
+//global.SHOWHITBOXES = true;
 
-global.SHOWSPAWNERS = true;
+global.SHOWSPAWNERS = false;
 
-global.STARTTIME = 3 * 60;	// 3 minutes
+global.STARTTIME = 1 * 60;	// 1 minute
 
-global.TIME = global.STARTTIME ;	// 3 minutes
+global.TIME = global.STARTTIME ;	
 
 global.WEAPONS =
 {
 	obj_boot_button: {"object": obj_boot, "count": 3, "trigger": "E", "used": false},
-	obj_poison_button: {"object": obj_poison, "count": 3, "trigger": "W", "used": false},
-	obj_sugar_button: {"object": obj_sugar, "count": 3, "trigger": "Q", "used": false},
+	obj_poison_button: {"object": obj_poison_mock, "count": 3, "trigger": "W", "used": false},
+	obj_sugar_button: {"object": obj_sugar_mock, "count": 3, "trigger": "Q", "used": false},
 }
 
 
 global.WEAPONACTIVE = noone;
+
+global.WEAPONEFFECTDUR = {"poison": 5, "sugar": 3}
 
 //global.WEAPONUSED = false;
 

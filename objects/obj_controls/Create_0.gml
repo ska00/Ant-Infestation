@@ -1,0 +1,1 @@
+/// @description keep track of how many ants have went by.

@@ -6,7 +6,7 @@ ant = global.ANTS[$object_name]
 
 dir = -1;
 
-move_speed = ant.move_speed * dir;
+move_speed = ant.move_speed * dir + random_range(-0.1, 0.1);
 
 xorigin = x;
 
@@ -15,8 +15,11 @@ image_yscale = global.ANTSCALE;
 
 STATES = {
 	"idle": 0,
-	"squashed": 1
+	"squashed": 1,
+	"tranced": 2
 }
 
 state = STATES.idle
 
+//
+sugar_distance = random_range(1, 20);
