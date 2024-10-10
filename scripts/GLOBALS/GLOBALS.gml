@@ -1,7 +1,11 @@
 
 scribble_font_bake_outline_and_shadow("fnt_numbers", "fnt",0,0,SCRIBBLE_OUTLINE.FOUR_DIR, 2,false);
 
+gpu_set_texfilter(false);
+
 set_globals();
+
+print(audio_sound_is_playable(snd_soundtrack))
 
 function set_globals()
 {

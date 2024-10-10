@@ -4,6 +4,14 @@ if game_ended exit;
 
 if global.HEALTH <= 0
 {
+	instance_destroy(obj_music)
+	
+	if audio_is_playing(snd_soundtrack)
+	{
+		audio_stop_sound(snd_soundtrack);
+	}
+	
+	
 	if instance_exists(obj_parent_ant) with obj_parent_ant state = STATES.gameover;
 	instance_deactivate_object(obj_rock_shooter);
 	
@@ -15,6 +23,8 @@ if global.HEALTH <= 0
 	
 	instance_create_layer(0, 0, "Instances", obj_gameover);
 	
+	
+	
 	game_ended = true;
 	
 	exit;
@@ -22,6 +32,14 @@ if global.HEALTH <= 0
 
 if global.TIME == 0 and not instance_exists(obj_parent_ant)
 {
+	instance_destroy(obj_music)
+	
+	if audio_is_playing(snd_soundtrack)
+	{
+		audio_stop_sound(snd_soundtrack);
+	}
+	
+	
 	if instance_exists(obj_parent_ant) with obj_parent_ant state = STATES.gameover;
 	instance_deactivate_object(obj_rock_shooter);
 	

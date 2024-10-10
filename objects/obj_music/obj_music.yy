@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_play",
+  "%Name":"obj_music",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_play",
+  "name":"obj_music",
   "overriddenProperties":[],
   "parent":{
-    "name":"Main Menu",
-    "path":"folders/Main Menu.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
-  "parentObjectId":{
-    "name":"obj_parent_menubutton",
-    "path":"objects/obj_parent_menubutton/obj_parent_menubutton.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_play",
-    "path":"sprites/spr_play/spr_play.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":0,
+  "compression":3,
   "conversionMode":0,
   "duration":44.57143,
   "name":"snd_soundtrack",
@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_soundtrack.wav",
-  "type":0,
+  "type":1,
   "volume":0.59,
 }

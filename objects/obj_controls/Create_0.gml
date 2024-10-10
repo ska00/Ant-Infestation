@@ -7,7 +7,15 @@ y = 0 + padding;
 width = sprite_get_width(spr_heart)
 height = sprite_get_height(spr_heart);
 
-var snd = audio_play_sound(snd_soundtrack, 8, true, 0);
-audio_sound_gain(snd, 1, 3 * 1000);
+if not audio_is_playing(snd_soundtrack)
+{
+	var snd = audio_play_sound(snd_soundtrack, 8, true, 0);
+	audio_sound_gain(snd, 1, 3 * 1000);
+}
+
+//var snd = audio_play_sound(snd_soundtrack, 8, true, 0);
+//audio_sound_gain(snd, 1, 3 * 1000);
+
+ //audio_play_sound(snd_soundtrack, 8, true, 1);
 
 game_ended = false;
