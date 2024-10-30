@@ -145,6 +145,7 @@
     {"id":{"name":"draw_text_scribble_ext","path":"scripts/draw_text_scribble_ext/draw_text_scribble_ext.yy",},},
     {"id":{"name":"draw_text_scribble","path":"scripts/draw_text_scribble/draw_text_scribble.yy",},},
     {"id":{"name":"GLOBALS","path":"scripts/GLOBALS/GLOBALS.yy",},},
+    {"id":{"name":"hex","path":"scripts/hex/hex.yy",},},
     {"id":{"name":"hurt_ant","path":"scripts/hurt_ant/hurt_ant.yy",},},
     {"id":{"name":"instance_nth_nearest","path":"scripts/instance_nth_nearest/instance_nth_nearest.yy",},},
     {"id":{"name":"print","path":"scripts/print/print.yy",},},
@@ -226,6 +227,7 @@
     {"id":{"name":"snd_antspawning","path":"sounds/snd_antspawning/snd_antspawning.yy",},},
     {"id":{"name":"snd_antsteps","path":"sounds/snd_antsteps/snd_antsteps.yy",},},
     {"id":{"name":"snd_boot","path":"sounds/snd_boot/snd_boot.yy",},},
+    {"id":{"name":"snd_explosion","path":"sounds/snd_explosion/snd_explosion.yy",},},
     {"id":{"name":"snd_gameover","path":"sounds/snd_gameover/snd_gameover.yy",},},
     {"id":{"name":"snd_rock","path":"sounds/snd_rock/snd_rock.yy",},},
     {"id":{"name":"snd_soundtrack","path":"sounds/snd_soundtrack/snd_soundtrack.yy",},},
@@ -251,6 +253,7 @@
     {"id":{"name":"spr_mainmenu_background","path":"sprites/spr_mainmenu_background/spr_mainmenu_background.yy",},},
     {"id":{"name":"spr_play","path":"sprites/spr_play/spr_play.yy",},},
     {"id":{"name":"spr_poison_button","path":"sprites/spr_poison_button/spr_poison_button.yy",},},
+    {"id":{"name":"spr_poison_explode","path":"sprites/spr_poison_explode/spr_poison_explode.yy",},},
     {"id":{"name":"spr_poison","path":"sprites/spr_poison/spr_poison.yy",},},
     {"id":{"name":"spr_queen","path":"sprites/spr_queen/spr_queen.yy",},},
     {"id":{"name":"spr_quit","path":"sprites/spr_quit/spr_quit.yy",},},
@@ -267,8 +270,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
+    {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
