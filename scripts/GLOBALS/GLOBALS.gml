@@ -47,15 +47,17 @@ function set_globals()
 
 	global.WEAPONS =
 	{
-		obj_boot_button: {"object": obj_boot, "count": 3, "trigger": "W", "used": false},
-		obj_poison_button: {"object": obj_poison_mock, "count": 3, "trigger": "E", "used": false},
-		obj_sugar_button: {"object": obj_sugar_mock, "count": 4, "trigger": "Q", "used": false},
+		obj_boot_button: {"object": obj_boot, "count": 3, "trigger": "E", "used": false},
+		obj_poison_button: {"object": obj_poison_mock, "count": 3, "trigger": "W", "used": false},
+		obj_sugar_button: {"object": obj_sugar_mock, "count": 3, "trigger": "Q", "used": false},
 	}
 
 
 	global.WEAPONACTIVE = noone;
 
 	global.WEAPONEFFECTDUR = {"poison": 5, "sugar": 3}
+	
+	global.WON = false;
 }
 
 //global.WEAPONUSED = false;

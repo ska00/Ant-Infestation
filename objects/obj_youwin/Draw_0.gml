@@ -16,6 +16,12 @@ if alpha >= 1
 		Scribble.draw(room_width / 2, 160)
 		
 		draw_sprite_ext(spr_title_youwin, 1, x, y, 1, 1, 0, c_white, alpha);
+		
+		// UPDATE UPDATE UUPDATE
+		global.WON = true
+		room_goto(rm_end)
+	
+		
 		exit;
 }
 

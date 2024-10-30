@@ -12,6 +12,8 @@ if global.HEALTH <= 0
 	}
 	
 	
+	
+	
 	if instance_exists(obj_parent_ant) with obj_parent_ant state = STATES.gameover;
 	instance_deactivate_object(obj_rock_shooter);
 	
@@ -38,6 +40,7 @@ if global.TIME == 0 and not instance_exists(obj_parent_ant)
 	{
 		audio_stop_sound(snd_soundtrack);
 	}
+	
 	
 	
 	if instance_exists(obj_parent_ant) with obj_parent_ant state = STATES.gameover;
