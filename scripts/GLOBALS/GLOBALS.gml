@@ -56,6 +56,8 @@ function set_globals()
 	global.WEAPONACTIVE = noone;
 
 	global.WEAPONEFFECTDUR = {"poison": 5, "sugar": 3}
+	
+	global.WON = false;
 }
 
 //global.WEAPONUSED = false;
