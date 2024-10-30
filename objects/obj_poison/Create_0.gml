@@ -19,7 +19,7 @@ if (_num > 0)
     {
         with _list[| i]
 		{
-			move_speed = move_speed * 0.60
+			move_speed = move_speed * 0.5
 			image_speed = image_speed * 0.75
 			image_blend = hex("dfb3ff")	//b96cf0
 			
